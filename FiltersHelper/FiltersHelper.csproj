@@ -86,6 +86,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="FilterInfo.cs" />
+    <Compile Include="Filters\AntiqueFilter.cs" />
+    <Compile Include="Filters\BaseFilter.cs" />
+    <Compile Include="Filters\BlurFilter.cs" />
+    <Compile Include="Filters\BrightnessFilter.cs" />
     <Compile Include="Parameters\IntParameters.cs" />
     <Compile Include="ParametersInfo\FilterParametersInfo.cs" />
     <Compile Include="FiltersLibrary.cs" />

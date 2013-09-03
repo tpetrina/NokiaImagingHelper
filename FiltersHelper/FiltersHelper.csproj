@@ -95,11 +95,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Nokia.Graphics.Imaging, Version=255.255.255.255, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Nokia.Graphics.Imaging, Version=255.255.255.255, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NokiaImagingSDK.0.9.3\lib\wp8\$(Platform)\Nokia.Graphics.Imaging.winmd</HintPath>
+    </Reference>
     <Reference Include="Nokia.Graphics.Imaging.Managed">
       <HintPath>..\packages\NokiaImagingSDK.0.9.3\lib\wp8\Nokia.Graphics.Imaging.Managed.dll</HintPath>
     </Reference>
-    <Reference Include="Nokia.InteropServices.WindowsRuntime, Version=255.255.255.255, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Nokia.InteropServices.WindowsRuntime, Version=255.255.255.255, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NokiaImagingSDK.0.9.3\lib\wp8\$(Platform)\Nokia.InteropServices.WindowsRuntime.winmd</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
